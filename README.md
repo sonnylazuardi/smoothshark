@@ -21,17 +21,13 @@ Get your api key from [here](http://developers.grooveshark.com/api), then change
 	12:     $gsapi = new gsAPI('API_KEY', 'API_SECRET');
 	13      gsAPI::$headers = array("X-Client-IP: " . $_SERVER['REMOTE_ADDR']);
 
-change directory to the source and do following steps
+Run XAMPP / LAMPP stack on your computer
 
-	npm install -g pushserve
+Copy the source to `htdocs/smoothshark`
 
-run the pushserve
+Then, open in browser and enjoy
 
-	pushserve --port 3000
-
-open in browser
-
-	http://localhost:3000/
+http://localhost/smoothshark
 
 
 ## License
