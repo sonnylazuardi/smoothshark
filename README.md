@@ -27,7 +27,7 @@ Copy the source to `htdocs/smoothshark`
 
 Then, open in browser and enjoy
 
-http://localhost/smoothshark
+	http://localhost/smoothshark
 
 
 ## License
