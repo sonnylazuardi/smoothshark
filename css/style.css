@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0; }
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body { 
+	/*background: #fa7900;*/
+	/*background: #555;*/
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	font: 14px Sans-Serif;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+h1 {
+	font-size: 5em;
+	letter-spacing: -1px;
+	/*border-bottom: 10px solid #ffcc9d;*/
+	padding: 0 0 10px 0;
+	/*margin: 0 0 20px 0; */
+	margin-bottom: 0;
+	line-height: .8em;
+	font-weight: bold;
+}
+span.thin {
+	font-weight:lighter;
+}
+
+h2 {
+	font-size: 24px;
+	letter-spacing: -1px;
+	margin: 30px 0 10px 0;
+}
+p, form {
+	margin: 0 0 5px 0;
+}
+
+#page-wrap { 
+	text-align: center;
+	/*background: rgba(255,255,255,.8); */
+	padding: 50px 50px 0 50px;
+	width: 600px; 
+	margin: 100px auto; 
+	/*border-top: 10px solid #ffcc9d;*/
+	/*box-shadow: 0 0 5px rgba(0,0,0,0.2);*/
+}
+
+#groovesharkPlayer {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+footer {
+	font-size: .8em;
+	display: block;
+	/*background: rgba(255,255,255,.5);*/
+	padding: 10px 50px;
+	margin: 50px -50px 0 -50px;
+}
+
+.form-control {
+	display: inline-block; 
+	width: inherit;
+} 
+#song-search-input {
+	width: 300px;
+}
+img#coverArt {
+	width: 150px;
+	height: 150px;
+}
